@@ -24,8 +24,14 @@ binary_data = serialize_python_data(value)
 
 ## Requirements
 
-Specify the required Python packages here.
+- Python 3.9 or later
+- NumPy
 
+Install the required package with:
+
+```bash
+pip install numpy
+```
 ## License
 
 See the LICENSE file.
