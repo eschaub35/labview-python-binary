@@ -9,17 +9,17 @@ Python utilities for serializing Python data and decoding binary data exchanged 
 
 ## Usage
 
-Download `python.py` and place it in your Python project.
+Download `Labview_python_serialize_deserialize.py` and place it in your Python project.
 
 ```python
-from python import serialize_python_data, decode_labview_binary
+from python import serialize_python_data, deserialize_labview_binary
 
 # Serialize Python data
 value = [1, 2, 3]
 binary_data = serialize_python_data(value)
 
 # Decode binary data received from LabVIEW
-# decoded_data = decode_labview_binary(json_string, reponse_binaire)
+# decoded_data = deserialize_labview_binary(json_string, reponse_binaire)
 ```
 
 ## Requirements
